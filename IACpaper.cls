@@ -152,18 +152,18 @@
 
 %% ================================================== headings
 %% -------------------------------------------------- sections
-\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{2pt}
 % \titleformat{\section}{\normalfont\bf}{\arabic{section}.}{0.7em}{\textbf{{#1}}}
 \titleformat{\section}{\normalfont\bf}{%
 	\IfAppendix{\appendixname\ \thesection }{\arabic{section}.}
 }{\IfAppendix{0em}{0.5em}}{\textbf{#1}}
 
 %% -------------------------------------------------- subsections
-\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{2pt}
 \titleformat{\subsection}{\normalfont\it}{\arabic{section}.\arabic{subsection}}{0.5em}{\it #1}
 
 %% -------------------------------------------------- subsubsections
-\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{2pt}
 \titleformat{\subsubsection}{\normalfont\it}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}{0.5em}{\it #1}
 
 %% ================================================== At begin Document, run ...
